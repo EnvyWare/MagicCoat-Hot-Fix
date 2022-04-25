@@ -63,11 +63,11 @@ public class MixinsCoreMod implements IFMLLoadingPlugin {
     }
 
     private void initializeMixins() {
-        log("PixelmonFixes", "Enabling PixelmonFixes version 0.4.0");
+        log("MagicCoatHotFix", "Enabling MagicCoatHotFix version 1.0.0");
         loadedCoremods.add(new Tuple<>("internal", "mixins.minecraft.json"));
-
-        log("Mixins", "Loading Sponge mixins");
-        Mixins.addConfiguration("mixins.sponge.json");
+//
+//        log("Mixins", "Loading Sponge mixins");
+//        Mixins.addConfiguration("mixins.sponge.json");
 
         try {
             MixinBootstrap.init();
